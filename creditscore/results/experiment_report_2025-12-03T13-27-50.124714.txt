@@ -1,0 +1,110 @@
+================================================================================
+FEDERATED MULTI-OBJECTIVE EVOLUTIONARY CREDIT SCORING (FMO-ECS)
+Final Experiment Report
+================================================================================
+
+EXPERIMENT CONFIGURATION
+--------------------------------------------------------------------------------
+  n_clients: 3
+  rounds: 3
+  local_pop_size: 12
+  top_k_local: 4
+  random_state: 42
+  dataset_size: 1000
+  n_features: 86
+  sensitive_attr: CAT_DEPENDENTS
+
+================================================================================
+PARETO FRONT SOLUTIONS
+================================================================================
+
+Solution 0:
+  Fitness: [0.19753086419753085, 0.04166666666666666, 0.11481481481481481]
+  Features Selected: 63
+  C: 0.10167079878196114
+  Error: None
+
+Solution 1:
+  Fitness: [0.30864197530864196, 0.03082191780821919, 0.07777777777777778]
+  Features Selected: 61
+  C: 2.8842234716878425
+  Error: None
+
+Solution 2:
+  Fitness: [0.18518518518518517, 0.06969696969696969, 0.1765432098765432]
+  Features Selected: 61
+  C: 0.015178052094448865
+  Error: None
+
+Solution 3:
+  Fitness: [0.20987654320987653, 0.040747028862478774, 0.22592592592592592]
+  Features Selected: 63
+  C: 0.021698375693549484
+  Error: None
+
+Solution 4:
+  Fitness: [0.2962962962962963, 0.03623188405797104, 0.10246913580246914]
+  Features Selected: 63
+  C: 33.412119357447565
+  Error: None
+
+Solution 5:
+  Fitness: [0.30864197530864196, 0.01690140845070423, 0.11481481481481481]
+  Features Selected: 65
+  C: 0.8315042910269872
+  Error: None
+
+Solution 6:
+  Fitness: [0.4, 0.015625, 0.0]
+  Features Selected: 59
+  C: 2.252983005563054
+  Error: None
+
+Solution 7:
+  Fitness: [0.3125, 0.0, 0.11249999999999999]
+  Features Selected: 58
+  C: 0.80178346391078
+  Error: None
+
+Solution 8:
+  Fitness: [0.2875, 0.03589743589743591, 0.13749999999999998]
+  Features Selected: 69
+  C: 10.878952794609807
+  Error: None
+
+Solution 9:
+  Fitness: [0.25925925925925924, 0.05429864253393665, 0.11481481481481481]
+  Features Selected: 57
+  C: 2.6321707789926134
+  Error: None
+
+Solution 10:
+  Fitness: [0.30864197530864196, 0.04166666666666666, 0.11481481481481481]
+  Features Selected: 60
+  C: 1.8076293662560834
+  Error: None
+
+Solution 11:
+  Fitness: [0.325, 0.047619047619047616, 0.125]
+  Features Selected: 63
+  C: 10.398058010988366
+  Error: None
+
+================================================================================
+SUMMARY STATISTICS
+================================================================================
+
+PARETO FRONT ANALYSIS:
+  Prediction Error (min/max/mean): 0.1852 / 0.4000 / 0.2833
+  Fairness Violation (min/max/mean): 0.0000 / 0.0697 / 0.0359
+  Regulatory Violation (min/max/mean): 0.0000 / 0.2259 / 0.1181
+
+INTERPRETABILITY ANALYSIS:
+  Avg Features Selected: 61.83
+  Min/Max Features: 57 / 69
+  Interpretability Score: 0.1039
+  Feature Distribution: {57: 1, 58: 1, 59: 1, 60: 1, 61: 2, 63: 4, 65: 1, 69: 1}
+
+FAIRNESS AUDIT:
+  Solutions Meeting Fairness Criteria: 12 / 12
+  Mean Fairness Violation: 0.035931055688341366

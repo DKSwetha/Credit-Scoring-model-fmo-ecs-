@@ -1,0 +1,407 @@
+{
+  "experiment_config": {
+    "n_clients": 3,
+    "rounds": 3,
+    "local_pop_size": 12,
+    "top_k_local": 4,
+    "random_state": 42,
+    "dataset_size": 1000,
+    "n_features": 86,
+    "sensitive_attr": "CAT_DEPENDENTS"
+  },
+  "timestamp": "2025-12-03T14-16-08.893938",
+  "pareto_front": [
+    {
+      "solution_id": 0,
+      "fitness": [
+        0.19753086419753085,
+        0.04166666666666666,
+        0.11481481481481481
+      ],
+      "params": {
+        "C": 0.10167079878196114,
+        "penalty": "l2",
+        "solver": "saga"
+      },
+      "selected_features": null,
+      "num_features_selected": 63,
+      "coef": null,
+      "intercept": null,
+      "error": null
+    },
+    {
+      "solution_id": 1,
+      "fitness": [
+        0.30864197530864196,
+        0.03082191780821919,
+        0.07777777777777778
+      ],
+      "params": {
+        "C": 2.8842234716878425,
+        "penalty": "l2",
+        "solver": "saga"
+      },
+      "selected_features": null,
+      "num_features_selected": 61,
+      "coef": null,
+      "intercept": null,
+      "error": null
+    },
+    {
+      "solution_id": 2,
+      "fitness": [
+        0.18518518518518517,
+        0.06969696969696969,
+        0.1765432098765432
+      ],
+      "params": {
+        "C": 0.015178052094448865,
+        "penalty": "l2",
+        "solver": "saga"
+      },
+      "selected_features": null,
+      "num_features_selected": 61,
+      "coef": null,
+      "intercept": null,
+      "error": null
+    },
+    {
+      "solution_id": 3,
+      "fitness": [
+        0.20987654320987653,
+        0.040747028862478774,
+        0.22592592592592592
+      ],
+      "params": {
+        "C": 0.021698375693549484,
+        "penalty": "l2",
+        "solver": "saga"
+      },
+      "selected_features": null,
+      "num_features_selected": 63,
+      "coef": null,
+      "intercept": null,
+      "error": null
+    },
+    {
+      "solution_id": 4,
+      "fitness": [
+        0.2962962962962963,
+        0.03623188405797104,
+        0.10246913580246914
+      ],
+      "params": {
+        "C": 33.412119357447565,
+        "penalty": "l2",
+        "solver": "saga"
+      },
+      "selected_features": null,
+      "num_features_selected": 63,
+      "coef": null,
+      "intercept": null,
+      "error": null
+    },
+    {
+      "solution_id": 5,
+      "fitness": [
+        0.30864197530864196,
+        0.01690140845070423,
+        0.11481481481481481
+      ],
+      "params": {
+        "C": 0.8315042910269872,
+        "penalty": "l2",
+        "solver": "saga"
+      },
+      "selected_features": null,
+      "num_features_selected": 65,
+      "coef": null,
+      "intercept": null,
+      "error": null
+    },
+    {
+      "solution_id": 6,
+      "fitness": [
+        0.4,
+        0.015625,
+        0.0
+      ],
+      "params": {
+        "C": 2.252983005563054,
+        "penalty": "l2",
+        "solver": "saga"
+      },
+      "selected_features": null,
+      "num_features_selected": 59,
+      "coef": null,
+      "intercept": null,
+      "error": null
+    },
+    {
+      "solution_id": 7,
+      "fitness": [
+        0.3125,
+        0.0,
+        0.11249999999999999
+      ],
+      "params": {
+        "C": 0.80178346391078,
+        "penalty": "l2",
+        "solver": "saga"
+      },
+      "selected_features": null,
+      "num_features_selected": 58,
+      "coef": null,
+      "intercept": null,
+      "error": null
+    },
+    {
+      "solution_id": 8,
+      "fitness": [
+        0.2875,
+        0.03589743589743591,
+        0.13749999999999998
+      ],
+      "params": {
+        "C": 10.878952794609807,
+        "penalty": "l2",
+        "solver": "saga"
+      },
+      "selected_features": null,
+      "num_features_selected": 69,
+      "coef": null,
+      "intercept": null,
+      "error": null
+    },
+    {
+      "solution_id": 9,
+      "fitness": [
+        0.25925925925925924,
+        0.05429864253393665,
+        0.11481481481481481
+      ],
+      "params": {
+        "C": 2.6321707789926134,
+        "penalty": "l2",
+        "solver": "saga"
+      },
+      "selected_features": null,
+      "num_features_selected": 57,
+      "coef": null,
+      "intercept": null,
+      "error": null
+    },
+    {
+      "solution_id": 10,
+      "fitness": [
+        0.30864197530864196,
+        0.04166666666666666,
+        0.11481481481481481
+      ],
+      "params": {
+        "C": 1.8076293662560834,
+        "penalty": "l2",
+        "solver": "saga"
+      },
+      "selected_features": null,
+      "num_features_selected": 60,
+      "coef": null,
+      "intercept": null,
+      "error": null
+    },
+    {
+      "solution_id": 11,
+      "fitness": [
+        0.325,
+        0.047619047619047616,
+        0.125
+      ],
+      "params": {
+        "C": 10.398058010988366,
+        "penalty": "l2",
+        "solver": "saga"
+      },
+      "selected_features": null,
+      "num_features_selected": 63,
+      "coef": null,
+      "intercept": null,
+      "error": null
+    }
+  ],
+  "round_history": [
+    {
+      "round": 1,
+      "total_rounds": 3,
+      "client_metrics": [
+        {
+          "client_id": 0,
+          "local_pareto_size": 12,
+          "solutions_sent": 4,
+          "avg_error": 0.2798,
+          "avg_fairness_violation": 0.1149,
+          "avg_regulatory_violation": 0.0991
+        },
+        {
+          "client_id": 1,
+          "local_pareto_size": 12,
+          "solutions_sent": 4,
+          "avg_error": 0.3056,
+          "avg_fairness_violation": 0.093,
+          "avg_regulatory_violation": 0.1207
+        },
+        {
+          "client_id": 2,
+          "local_pareto_size": 12,
+          "solutions_sent": 4,
+          "avg_error": 0.3198,
+          "avg_fairness_violation": 0.0775,
+          "avg_regulatory_violation": 0.1406
+        }
+      ],
+      "global_pareto_size": 10,
+      "aggregation_time": 2.6238861083984375,
+      "timestamp": "2025-12-03 14:16:08.782157"
+    },
+    {
+      "round": 2,
+      "total_rounds": 3,
+      "client_metrics": [
+        {
+          "client_id": 0,
+          "local_pareto_size": 12,
+          "solutions_sent": 4,
+          "avg_error": 0.2798,
+          "avg_fairness_violation": 0.1149,
+          "avg_regulatory_violation": 0.0991
+        },
+        {
+          "client_id": 1,
+          "local_pareto_size": 12,
+          "solutions_sent": 4,
+          "avg_error": 0.3056,
+          "avg_fairness_violation": 0.093,
+          "avg_regulatory_violation": 0.1207
+        },
+        {
+          "client_id": 2,
+          "local_pareto_size": 12,
+          "solutions_sent": 4,
+          "avg_error": 0.3198,
+          "avg_fairness_violation": 0.0775,
+          "avg_regulatory_violation": 0.1406
+        }
+      ],
+      "global_pareto_size": 10,
+      "aggregation_time": 0.0011107921600341797,
+      "timestamp": "2025-12-03 14:16:08.783298"
+    },
+    {
+      "round": 3,
+      "total_rounds": 3,
+      "client_metrics": [
+        {
+          "client_id": 0,
+          "local_pareto_size": 12,
+          "solutions_sent": 4,
+          "avg_error": 0.2798,
+          "avg_fairness_violation": 0.1149,
+          "avg_regulatory_violation": 0.0991
+        },
+        {
+          "client_id": 1,
+          "local_pareto_size": 12,
+          "solutions_sent": 4,
+          "avg_error": 0.3056,
+          "avg_fairness_violation": 0.093,
+          "avg_regulatory_violation": 0.1207
+        },
+        {
+          "client_id": 2,
+          "local_pareto_size": 12,
+          "solutions_sent": 4,
+          "avg_error": 0.3198,
+          "avg_fairness_violation": 0.0775,
+          "avg_regulatory_violation": 0.1406
+        }
+      ],
+      "global_pareto_size": 10,
+      "aggregation_time": 0.0010521411895751953,
+      "timestamp": "2025-12-03 14:16:08.784371"
+    }
+  ],
+  "summary_statistics": {
+    "pareto_analysis": {
+      "prediction_error": {
+        "min": 0.18518518518518517,
+        "max": 0.4,
+        "mean": 0.28325617283950616,
+        "std": 0.05864825272335845
+      },
+      "fairness_violation": {
+        "min": 0.0,
+        "max": 0.06969696969696969,
+        "mean": 0.035931055688341366,
+        "std": 0.017782954074305347
+      },
+      "regulatory_violation": {
+        "min": 0.0,
+        "max": 0.22592592592592592,
+        "mean": 0.11808127572016458,
+        "std": 0.051119427294145266
+      },
+      "diversity_metrics": {
+        "diversity_score": 0.3918252290345314,
+        "avg_pairwise_distance": 0.3918252290345314
+      },
+      "tradeoff_analysis": {
+        "accuracy_fairness_correlation": -0.6387532226436708,
+        "accuracy_regulatory_correlation": -0.7854631349296757,
+        "fairness_regulatory_correlation": 0.489320596883603,
+        "conflict_level": 0.7854631349296757
+      }
+    },
+    "convergence": {
+      "num_rounds": 3,
+      "pareto_sizes_per_round": [
+        10,
+        10,
+        10
+      ],
+      "pareto_growth": 0,
+      "convergence_trend": "stable"
+    },
+    "interpretability": {
+      "avg_features_selected": 61.83,
+      "min_features": 57,
+      "max_features": 69,
+      "interpretability_score": 0.1039,
+      "feature_usage_distribution": {
+        "57": 1,
+        "58": 1,
+        "59": 1,
+        "60": 1,
+        "61": 2,
+        "63": 4,
+        "65": 1,
+        "69": 1
+      },
+      "total_solutions_analyzed": 12
+    },
+    "fairness_audit": {
+      "num_solutions_audited": 12,
+      "audit_status": "passed",
+      "fairness_objectives": [
+        "demographic_parity",
+        "equalized_odds",
+        "fairness_compliance"
+      ],
+      "solutions_meeting_criteria": 12,
+      "fairness_metrics": {
+        "min_violation": 0.0,
+        "max_violation": 0.06969696969696969,
+        "mean_violation": 0.035931055688341366,
+        "median_violation": 0.038489456460224905
+      }
+    }
+  }
+}
